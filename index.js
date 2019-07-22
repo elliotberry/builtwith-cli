@@ -2,7 +2,7 @@
 
 'use strict';
 
-const builtWith = require('builtwith');
+const builtWith = require('./api');
 const program = require('commander');
 const pckg = require('./package.json');
 const Table = require('cli-table');
